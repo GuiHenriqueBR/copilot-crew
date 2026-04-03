@@ -1,0 +1,344 @@
+// Gerado automaticamente: conjunto contendo TODAS as ferramentas ativadas.
+// Atenção: arquivo extenso. Você pode subdividir em grupos se desejar.
+{
+	"AllTools": {
+		"description": "Conjunto completo com todas as ferramentas disponíveis no ambiente atual (Azure, GitHub, Migration, Playwright, Puppeteer, Pylance, Banco de Dados, Memória de Projeto, Pensamento, Grafo de Conhecimento, Documentação Microsoft, Deployment, etc.)",
+		"icon": "tools",
+		"tools": [
+			// Migration Assessment & Related
+			"appmod-install-appcat",
+			"appmod-precheck-assessment",
+			"appmod-run-assessment",
+			"migration_assessmentReport",
+			"uploadAssessSummaryReport",
+			// Migration Build & Test
+			"appmod-build-project",
+			"appmod-fix-test",
+			"appmod-run-test",
+			// Migration Validation
+			"appmod-completeness-validation",
+			"appmod-consistency-validation",
+			"appmod-validate-cve",
+			// Migration Documentation & Knowledge Base
+			"appmod-create-migration-summary",
+			"appmod-fetch-knowledgebase",
+			"appmod-search-knowledgebase",
+			// Migration Version Control Helper
+			"appmod-version-control",
+			// Migration File Management & Execution
+			"appmod-get-vscode-config",
+			"appmod-preview-markdown",
+			"appmod-search-file",
+			"appmod-run-task",
+
+			// Azure Core / Auth / CLI / Resources
+			"azure_activity_log-list",
+			"azure_applens-diagnose_resource",
+			"azure_auth-get_auth_state",
+			"azure_auth-get_available_tenants",
+			"azure_auth-get_current_tenant",
+			"azure_auth-get_selected_subscriptions",
+			"azure_auth-open_subscription_picker",
+			"azure_auth-set_current_tenant",
+			"azure_auth-sign_out_azure_user",
+			"azure_cli-generate_azure_cli_command",
+			"azure_development-summarize_topic",
+			"azure_dotnet_templates-get_tags",
+			"azure_dotnet_templates-get_templates_for_tag",
+			"azure_resources-query_azure_resource_graph",
+
+			// Azure Container / App Services / ACR / AKS / Functions / VDI
+			"mcp_azure_mcp_acr",
+			"mcp_azure_mcp_aks",
+			"mcp_azure_mcp_appservice",
+			"mcp_azure_mcp_functionapp",
+			"mcp_azure_mcp_virtualdesktop",
+
+			// Azure Configuration / Deployment / Best Practices / Bicep / App Config
+			"mcp_azure_mcp_appconfig",
+			"mcp_azure_mcp_azureterraformbestpractices",
+			"mcp_azure_mcp_bicepschema",
+			"mcp_azure_mcp_deploy",
+			"mcp_azure_mcp_get_bestpractices",
+
+			// Azure Monitoring & Diagnostics
+			"mcp_azure_mcp_applens",
+			"mcp_azure_mcp_applicationinsights",
+			"mcp_azure_mcp_loadtesting",
+			"mcp_azure_mcp_monitor",
+			"mcp_azure_mcp_resourcehealth",
+
+			// Azure Data Services
+			"mcp_azure_mcp_cosmos",
+			"mcp_azure_mcp_kusto",
+			"mcp_azure_mcp_mysql",
+			"mcp_azure_mcp_postgres",
+
+			// Azure Security & Access
+			"mcp_azure_mcp_extension_azqr",
+			"mcp_azure_mcp_keyvault",
+			"mcp_azure_mcp_role",
+
+			// Azure Eventing
+			"mcp_azure_mcp_eventgrid",
+			"mcp_azure_mcp_servicebus",
+
+			// Azure Resource Management & Marketplace
+			"mcp_azure_mcp_datadog",
+			"mcp_azure_mcp_foundry",
+			"mcp_azure_mcp_grafana",
+			"mcp_azure_mcp_group",
+			"mcp_azure_mcp_marketplace",
+			"mcp_azure_mcp_subscription",
+
+			// Azure Files / Cache
+			"mcp_azure_mcp_azuremanagedlustre",
+			"mcp_azure_mcp_redis",
+
+			// Azure Search
+			"mcp_azure_mcp_search",
+
+			// Azure SQL
+			"mcp_azure_mcp_sql",
+
+			// Azure Quota
+			"mcp_azure_mcp_quota",
+
+			// Azure Documentation
+			"mcp_azure_mcp_documentation",
+
+			// Azure Workbooks
+			"mcp_azure_mcp_workbooks",
+
+			// Azure Deployment Tools (Arquitetura / Quotas / IaC / CI/CD)
+			"mcp_java_app_mode_appmod-check-quota",
+			"mcp_java_app_mode_appmod-generate-architecture-diagram",
+			"mcp_java_app_mode_appmod-get-available-region",
+			"mcp_java_app_mode_appmod-get-azd-app-logs",
+			"mcp_java_app_mode_appmod-get-cicd-pipeline-guidance",
+			"mcp_java_app_mode_appmod-get-containerization-plan",
+			"mcp_java_app_mode_appmod-get-iac-rules",
+			"mcp_java_app_mode_appmod-get-plan",
+			"mcp_java_app_mode_appmod-get-regions-with-sufficient-quota",
+			"mcp_java_app_mode_appmod-summarize-result",
+
+			// Java Project Tools
+			"build_java_project",
+			"generate_tests_for_java",
+			"generate_upgrade_plan_for_java_project",
+			"install_jdk",
+			"install_maven",
+			"list_jdks",
+			"list_mavens",
+			"run_tests_for_java",
+			"setup_development_environment_for_upgrade",
+			"summarize_upgrade",
+			"upgrade_java_project_using_openrewrite",
+			"validate_behavior_changes_for_java",
+			"validate_cves_for_java",
+
+			// Python Environment Tools
+			"configure_python_environment",
+			"get_python_environment_details",
+			"get_python_executable_details",
+			"install_python_packages",
+
+			// Database Client Tools
+			"dbclient-execute-query",
+			"dbclient-get-databases",
+			"dbclient-get-tables",
+
+			// Project Memory Bank Tools
+			"mcp__allpepper_me_list_project_files",
+			"mcp__allpepper_me_list_projects",
+			"mcp__allpepper_me_memory_bank_read",
+			"mcp__allpepper_me_memory_bank_update",
+			"mcp__allpepper_me_memory_bank_write",
+
+			// GitHub Issue Management
+			"mcp_github_add_issue_comment",
+			"mcp_github_add_sub_issue",
+			"mcp_github_assign_copilot_to_issue",
+			"mcp_github_create_issue",
+			"mcp_github_get_issue",
+			"mcp_github_get_issue_comments",
+			"mcp_github_list_issues",
+			"mcp_github_list_sub_issues",
+			"mcp_github_remove_sub_issue",
+			"mcp_github_reprioritize_sub_issue",
+			"mcp_github_update_issue",
+
+			// GitHub Pull Requests
+			"mcp_github_add_comment_to_pending_review",
+			"mcp_github_create_and_submit_pull_request_review",
+			"mcp_github_create_pending_pull_request_review",
+			"mcp_github_create_pull_request",
+			"mcp_github_get_pull_request",
+			"mcp_github_get_pull_request_comments",
+			"mcp_github_get_pull_request_diff",
+			"mcp_github_get_pull_request_files",
+			"mcp_github_get_pull_request_reviews",
+			"mcp_github_get_pull_request_status",
+			"mcp_github_list_pull_requests",
+			"mcp_github_merge_pull_request",
+			"mcp_github_request_copilot_review",
+			"mcp_github_submit_pending_pull_request_review",
+			"mcp_github_update_pull_request",
+			"mcp_github_update_pull_request_branch",
+
+			// GitHub Repository Management
+			"mcp_github_create_branch",
+			"mcp_github_create_or_update_file",
+			"mcp_github_create_repository",
+			"mcp_github_delete_file",
+			"mcp_github_delete_pending_pull_request_review",
+			"mcp_github_fork_repository",
+			"mcp_github_get_file_contents",
+			"mcp_github_get_latest_release",
+			"mcp_github_get_release_by_tag",
+			"mcp_github_get_tag",
+			"mcp_github_list_branches",
+			"mcp_github_list_releases",
+			"mcp_github_list_tags",
+			"mcp_github_list_workflow_runs",
+			"mcp_github_list_workflows",
+			"mcp_github_push_files",
+
+			// GitHub Workflows
+			"mcp_github_cancel_workflow_run",
+			"mcp_github_delete_workflow_run_logs",
+			"mcp_github_download_workflow_run_artifact",
+			"mcp_github_get_job_logs",
+			"mcp_github_get_workflow_run",
+			"mcp_github_get_workflow_run_logs",
+			"mcp_github_get_workflow_run_usage",
+			"mcp_github_list_workflow_jobs",
+			"mcp_github_list_workflow_run_artifacts",
+			"mcp_github_rerun_failed_jobs",
+			"mcp_github_rerun_workflow_run",
+			"mcp_github_run_workflow",
+
+			// GitHub Notifications
+			"mcp_github_dismiss_notification",
+			"mcp_github_get_notification_details",
+			"mcp_github_list_notifications",
+			"mcp_github_manage_notification_subscription",
+			"mcp_github_manage_repository_notification_subscription",
+			"mcp_github_mark_all_notifications_read",
+
+			// GitHub Security
+			"mcp_github_get_code_scanning_alert",
+			"mcp_github_get_dependabot_alert",
+			"mcp_github_get_global_security_advisory",
+			"mcp_github_get_secret_scanning_alert",
+			"mcp_github_list_code_scanning_alerts",
+			"mcp_github_list_dependabot_alerts",
+			"mcp_github_list_global_security_advisories",
+			"mcp_github_list_org_repository_security_advisories",
+			"mcp_github_list_repository_security_advisories",
+			"mcp_github_list_secret_scanning_alerts",
+
+			// GitHub Search
+			"mcp_github_search_code",
+			"mcp_github_search_issues",
+			"mcp_github_search_orgs",
+			"mcp_github_search_pull_requests",
+			"mcp_github_search_repositories",
+			"mcp_github_search_users",
+
+			// GitHub Gists
+			"mcp_github_create_gist",
+			"mcp_github_list_gists",
+			"mcp_github_update_gist",
+
+			// GitHub Discussions
+			"mcp_github_get_discussion",
+			"mcp_github_get_discussion_comments",
+			"mcp_github_list_discussion_categories",
+			"mcp_github_list_discussions",
+			"mcp_github_list_issue_types",
+
+			// GitHub User / Teams / Commits
+			"mcp_github_get_me",
+			"mcp_github_get_team_members",
+			"mcp_github_get_teams",
+			"mcp_github_list_commits",
+
+			// Thinking Session Tools
+			"mcp_mcp-sequentia_clear_history",
+			"mcp_mcp-sequentia_export_session",
+			"mcp_mcp-sequentia_generate_summary",
+			"mcp_mcp-sequentia_import_session",
+			"mcp_mcp-sequentia_process_thought",
+
+			// Knowledge Graph Tools
+			"mcp_memory_add_observations",
+			"mcp_memory_create_entities",
+			"mcp_memory_create_relations",
+			"mcp_memory_delete_entities",
+			"mcp_memory_delete_observations",
+			"mcp_memory_delete_relations",
+			"mcp_memory_open_nodes",
+			"mcp_memory_read_graph",
+			"mcp_memory_search_nodes",
+
+			// Microsoft Documentation Tools
+			"mcp_microsoft_doc_microsoft_code_sample_search",
+			"mcp_microsoft_doc_microsoft_docs_fetch",
+			"mcp_microsoft_doc_microsoft_docs_search",
+
+			// Playwright Navigation / Tabs
+			"mcp_playwright_browser_navigate",
+			"mcp_playwright_browser_navigate_back",
+			"mcp_playwright_browser_tabs",
+
+			// Playwright Interaction
+			"mcp_playwright_browser_click",
+			"mcp_playwright_browser_drag",
+			"mcp_playwright_browser_fill_form",
+			"mcp_playwright_browser_hover",
+			"mcp_playwright_browser_press_key",
+			"mcp_playwright_browser_select_option",
+			"mcp_playwright_browser_type",
+
+			// Playwright Visual / Snapshot
+			"mcp_playwright_browser_snapshot",
+			"mcp_playwright_browser_take_screenshot",
+
+			// Playwright Window & Wait
+			"mcp_playwright_browser_close",
+			"mcp_playwright_browser_resize",
+			"mcp_playwright_browser_wait_for",
+
+			// Playwright Console & Network
+			"mcp_playwright_browser_console_messages",
+			"mcp_playwright_browser_network_requests",
+
+			// Playwright Install
+			"mcp_playwright_browser_install",
+
+			// Puppeteer
+			"mcp_puppeteer_puppeteer_click",
+			"mcp_puppeteer_puppeteer_evaluate",
+			"mcp_puppeteer_puppeteer_fill",
+			"mcp_puppeteer_puppeteer_hover",
+			"mcp_puppeteer_puppeteer_navigate",
+			"mcp_puppeteer_puppeteer_screenshot",
+			"mcp_puppeteer_puppeteer_select",
+
+			// Pylance / Python Analysis
+			"mcp_pylance_mcp_s_pylanceDocuments",
+			"mcp_pylance_mcp_s_pylanceFileSyntaxErrors",
+			"mcp_pylance_mcp_s_pylanceImports",
+			"mcp_pylance_mcp_s_pylanceInstalledTopLevelModules",
+			"mcp_pylance_mcp_s_pylanceInvokeRefactoring",
+			"mcp_pylance_mcp_s_pylancePythonEnvironments",
+			"mcp_pylance_mcp_s_pylanceRunCodeSnippet",
+			"mcp_pylance_mcp_s_pylanceSettings",
+			"mcp_pylance_mcp_s_pylanceSyntaxErrors",
+			"mcp_pylance_mcp_s_pylanceUpdatePythonEnvironment",
+			"mcp_pylance_mcp_s_pylanceWorkspaceRoots",
+			"mcp_pylance_mcp_s_pylanceWorkspaceUserFiles"
+		]
+	}
+}

@@ -1,0 +1,37 @@
+// GitHub — Issues, PRs, Repos, Security, Workflows
+{
+	"GitHub": {
+		"description": "GitHub tools: issues, PRs, repos, branches, workflows, security alerts, search",
+		"icon": "github",
+		"tools": [
+			"mcp_github_create_issue",
+			"mcp_github_get_issue",
+			"mcp_github_list_issues",
+			"mcp_github_update_issue",
+			"mcp_github_add_issue_comment",
+			"mcp_github_search_issues",
+			"mcp_github_create_pull_request",
+			"mcp_github_get_pull_request",
+			"mcp_github_list_pull_requests",
+			"mcp_github_merge_pull_request",
+			"mcp_github_get_pull_request_diff",
+			"mcp_github_get_pull_request_files",
+			"mcp_github_update_pull_request",
+			"mcp_github_request_copilot_review",
+			"mcp_github_create_branch",
+			"mcp_github_list_branches",
+			"mcp_github_push_files",
+			"mcp_github_get_file_contents",
+			"mcp_github_list_commits",
+			"mcp_github_search_code",
+			"mcp_github_search_repositories",
+			"mcp_github_list_notifications",
+			"mcp_github_list_code_scanning_alerts",
+			"mcp_github_list_dependabot_alerts",
+			"mcp_github_list_secret_scanning_alerts",
+			"mcp_github_run_workflow",
+			"mcp_github_list_workflow_runs",
+			"mcp_github_get_job_logs"
+		]
+	}
+}

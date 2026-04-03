@@ -1,0 +1,35 @@
+// Database & Data — DB clients, Azure data services, memory/knowledge
+{
+	"Database": {
+		"description": "Database tools: query execution, schema inspection, Azure Cosmos/Postgres/MySQL/Redis",
+		"icon": "database",
+		"tools": [
+			"dbclient-execute-query",
+			"dbclient-get-databases",
+			"dbclient-get-tables",
+			"mcp_azure_mcp_cosmos",
+			"mcp_azure_mcp_postgres",
+			"mcp_azure_mcp_mysql",
+			"mcp_azure_mcp_redis",
+			"mcp_azure_mcp_sql",
+			"mcp_azure_mcp_kusto"
+		]
+	},
+	"Knowledge": {
+		"description": "Memory bank, knowledge graph, thinking sessions",
+		"icon": "lightbulb",
+		"tools": [
+			"mcp__allpepper_me_memory_bank_read",
+			"mcp__allpepper_me_memory_bank_write",
+			"mcp__allpepper_me_memory_bank_update",
+			"mcp__allpepper_me_list_projects",
+			"mcp_memory_create_entities",
+			"mcp_memory_create_relations",
+			"mcp_memory_add_observations",
+			"mcp_memory_search_nodes",
+			"mcp_memory_read_graph",
+			"mcp_mcp-sequentia_process_thought",
+			"mcp_mcp-sequentia_generate_summary"
+		]
+	}
+}

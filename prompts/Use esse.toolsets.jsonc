@@ -1,0 +1,26 @@
+// Docs & AI — Microsoft docs, Azure AI, deployment
+{
+	"Docs": {
+		"description": "Microsoft Learn documentation search, code samples, and page fetching",
+		"icon": "book",
+		"tools": [
+			"mcp_microsoft_doc_microsoft_docs_search",
+			"mcp_microsoft_doc_microsoft_code_sample_search",
+			"mcp_microsoft_doc_microsoft_docs_fetch",
+			"mcp_azure_mcp_documentation"
+		]
+	},
+	"Deploy": {
+		"description": "Azure deployment, App Service, Functions, ACR, AKS, CI/CD",
+		"icon": "rocket",
+		"tools": [
+			"mcp_azure_mcp_deploy",
+			"mcp_azure_mcp_appservice",
+			"mcp_azure_mcp_functionapp",
+			"mcp_azure_mcp_acr",
+			"mcp_azure_mcp_aks",
+			"mcp_azure_mcp_bicepschema",
+			"mcp_azure_mcp_get_bestpractices"
+		]
+	}
+}

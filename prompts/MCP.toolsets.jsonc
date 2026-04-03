@@ -1,0 +1,30 @@
+// Browser Automation — Playwright + Puppeteer
+{
+	"Browser": {
+		"description": "Browser automation: navigation, clicks, forms, screenshots, console, network",
+		"icon": "globe",
+		"tools": [
+			"mcp_playwright_browser_navigate",
+			"mcp_playwright_browser_navigate_back",
+			"mcp_playwright_browser_tabs",
+			"mcp_playwright_browser_click",
+			"mcp_playwright_browser_fill_form",
+			"mcp_playwright_browser_hover",
+			"mcp_playwright_browser_type",
+			"mcp_playwright_browser_press_key",
+			"mcp_playwright_browser_select_option",
+			"mcp_playwright_browser_snapshot",
+			"mcp_playwright_browser_take_screenshot",
+			"mcp_playwright_browser_close",
+			"mcp_playwright_browser_resize",
+			"mcp_playwright_browser_wait_for",
+			"mcp_playwright_browser_console_messages",
+			"mcp_playwright_browser_network_requests",
+			"mcp_puppeteer_puppeteer_navigate",
+			"mcp_puppeteer_puppeteer_screenshot",
+			"mcp_puppeteer_puppeteer_click",
+			"mcp_puppeteer_puppeteer_fill",
+			"mcp_puppeteer_puppeteer_evaluate"
+		]
+	}
+}
