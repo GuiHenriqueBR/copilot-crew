@@ -1,5 +1,6 @@
 ---
 description: "Use when: E2E tests, end-to-end testing, Playwright tests, Cypress tests, integration testing UI, page objects, test automation, user flow testing, browser automation tests."
+model: "Claude Opus 4.6 (copilot)"
 tools: [read, search, edit, execute, todo, "mcp: playwright"]
 ---
 

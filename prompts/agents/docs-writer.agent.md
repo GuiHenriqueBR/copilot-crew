@@ -1,5 +1,6 @@
 ---
 description: "Use when: writing documentation, README, API docs, JSDoc, docstrings, changelogs, architecture docs, onboarding guides, technical writing, code comments, ADR (Architecture Decision Records), developer guides."
+model: "Claude Opus 4.6 (copilot)"
 tools: [read, search, edit]
 ---
 

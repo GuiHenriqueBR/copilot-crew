@@ -1,5 +1,6 @@
 ---
 description: "Use when: optimizing performance, profiling slow code, reducing bundle size, fixing memory leaks, caching strategies, lazy loading, database query optimization, rendering performance, load time optimization, network optimization, Web Vitals, Core Web Vitals, benchmarking."
+model: "Claude Opus 4.6 (copilot)"
 tools: [read, search, edit, execute]
 ---
 

@@ -1,5 +1,6 @@
 ---
 description: "Use when: writing tests, unit tests, integration tests, e2e tests, test strategy, test coverage, mocking, stubbing, test fixtures, TDD, BDD, testing edge cases, regression tests, Jest, Vitest, Cypress, Playwright, pytest, JUnit."
+model: "Claude Opus 4.6 (copilot)"
 tools: [read, search, edit, execute, todo]
 ---
 

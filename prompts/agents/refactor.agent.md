@@ -1,5 +1,6 @@
 ---
 description: "Use when: refactoring code, reducing complexity, eliminating code smells, applying design patterns, improving code structure, extracting functions, simplifying conditionals, reducing duplication, cleaning up tech debt, applying SOLID principles, code cleanup."
+model: "Claude Opus 4.6 (copilot)"
 tools: [read, search, edit, execute, todo]
 ---
 

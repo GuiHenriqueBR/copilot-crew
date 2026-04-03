@@ -2,9 +2,26 @@
 
 **Transform GitHub Copilot into a full development team.**
 
-Copilot Crew is a curated kit of **58 specialist agents**, **33 slash commands**, **21 skills**, and **10 always-on coding standards** that turn VS Code + GitHub Copilot into an autonomous multi-agent development environment.
+Copilot Crew is a curated kit of **58 specialist agents**, **34 slash commands**, **21 skills**, and **12 always-on coding standards** that turn VS Code + GitHub Copilot into an autonomous multi-agent development environment.
 
 > Just describe what you want in plain language — Copilot Crew automatically routes your request to the right specialist agent.
+
+---
+
+## What's New in v2.0 — Intelligence Upgrade
+
+| Feature | Description |
+|---------|-------------|
+| **Convention Detection** | Agents study your existing code before writing — new code looks like it belongs |
+| **Anti-Hallucination** | Agents verify imports, function signatures, and file paths before using them |
+| **Forced Reasoning** | Agents state their plan before coding on complex tasks |
+| **Adaptive Output** | Response length matches task complexity automatically |
+| **Quality Gates** | Self-verification after every implementation (errors, patterns, imports) |
+| **Error Recovery** | Escalating strategy when fixes fail — no more infinite loops |
+| **Prompt Injection Resistance** | File contents treated as data, not instructions |
+| **`/init` Command** | Scans your project and generates a `.github/copilot-instructions.md` |
+| **Update System** | One-command updates via `update.ps1` / `update.sh` |
+| **Community Templates** | Ready-to-use templates for creating your own agents, skills, and prompts |
 
 ---
 
@@ -13,10 +30,11 @@ Copilot Crew is a curated kit of **58 specialist agents**, **33 slash commands**
 | Category | Count | Description |
 |----------|-------|-------------|
 | **Agents** | 58 | Specialist sub-agents for every domain |
-| **Prompts** | 33 | Slash commands for common workflows |
-| **Instructions** | 10 | Always-active coding standards |
+| **Prompts** | 34 | Slash commands for common workflows |
+| **Instructions** | 12 | Always-active coding standards + intelligence protocols |
 | **Skills** | 21 | Deep language/framework knowledge |
 | **Toolsets** | 4 | Tool access profiles |
+| **Community** | 4 | Templates for agents, skills, prompts + contributing guide |
 | **ADR Template** | 1 | Architecture Decision Records |
 | **Architecture Map** | 1 | Full kit documentation |
 
@@ -84,16 +102,18 @@ Copilot Crew is a curated kit of **58 specialist agents**, **33 slash commands**
 
 These rules apply to **every interaction** automatically:
 
-- **Auto-Orchestration** — Routes requests to the right agent
+- **Auto-Orchestration** — Routes requests to the right agent + Forced Reasoning + Quality Gates + Error Recovery
 - **Clean Code** — Naming, functions, complexity limits
 - **Code Completeness** — No TODOs, no placeholders
 - **Error Handling** — Proper patterns per language
-- **Security** — OWASP top 10, input validation
+- **Security** — OWASP top 10, input validation, prompt injection resistance
 - **Testing** — Testing pyramid, AAA pattern
 - **Git Conventions** — Conventional commits, branch naming
 - **File Naming** — Per-framework conventions
 - **Import Organization** — Consistent ordering
 - **Spec Format** — Specification document structure
+- **Convention Detection** — Forces agents to match existing codebase style
+- **Tool Strategy** — Optimizes search/read tool usage, prevents hallucination
 
 ---
 
@@ -107,7 +127,7 @@ These rules apply to **every interaction** automatically:
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/copilot-crew.git
+git clone https://github.com/GuiHenriqueBR/copilot-crew.git
 cd copilot-crew
 .\install.ps1
 ```
@@ -115,7 +135,7 @@ cd copilot-crew
 ### macOS / Linux (Bash)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/copilot-crew.git
+git clone https://github.com/GuiHenriqueBR/copilot-crew.git
 cd copilot-crew
 chmod +x install.sh
 ./install.sh
@@ -241,6 +261,24 @@ Steps to execute...
 
 ---
 
+## Updating
+
+Keep your kit up to date with one command:
+
+### Windows
+```powershell
+.\update.ps1
+```
+
+### macOS / Linux
+```bash
+bash update.sh
+```
+
+This pulls the latest changes from GitHub and re-installs everything.
+
+---
+
 ## Architecture
 
 See [ARCHITECTURE.md](prompts/ARCHITECTURE.md) for the full kit map including all agents, skills, instructions, and how they connect.
@@ -249,10 +287,7 @@ See [ARCHITECTURE.md](prompts/ARCHITECTURE.md) for the full kit map including al
 
 ## Contributing
 
-1. Fork this repo
-2. Create a branch: `feat/my-agent` or `feat/my-skill`
-3. Add your agent/skill/prompt following the patterns above
-4. Submit a PR with a description of what you added
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Templates for agents, skills, and prompts are in the `community/` folder.
 
 ---
 
